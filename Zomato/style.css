@@ -1,0 +1,737 @@
+* {
+    font-family: Poppins,sans-serif,Arial;
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+/*! Navigation Section*/
+header{
+    background-image: url(/assets/hero-img.avif);
+    background-size: cover;
+    min-height: 460px;
+}
+
+.navbar{
+    min-height: 70px;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-rhs{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-lhs a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.nav-rhs a{
+    text-decoration: none;
+    color:#fff;
+    margin:0px 10px;
+    font-size: 1.275rem;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.nav-rhs li{
+    margin: 10px;
+}
+
+/*! Hero Main Section*/
+
+.hero-main{
+    min-height: 230px;
+    margin-top: 60px;
+}
+
+.logo-section{
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    background-image: url(/assets/zomato-logo.png);
+    background-size: cover;
+    min-height:64px;
+    width:301px;
+    text-align: center;
+}
+
+.text-section{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-section h1{
+    color:#fff;
+    font-weight: 300;
+    margin: 30px 0px 0px;
+}
+
+.text-section span{
+    font-weight: bold;
+}
+
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 50%;
+    margin: 30px auto;
+    min-height: 70px;
+}
+
+.select-section{
+    padding: 10px 0px;
+}
+
+.select-section .loc-select{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    margin:0px 80px 0px 0px;
+}
+
+.select-section i{
+    padding:6px;
+    color:red;
+}
+
+.search-section .input-box{
+    border:none;
+}
+
+.input-section-divider{
+    min-height: 1rem;
+    width:1.5px;
+    background-color: #222f3b;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.search-section{
+    padding:10px 0px;
+}
+
+.search-section i{
+    padding:6px;
+    color:#6e7479;
+}
+
+.search-section .input-box{
+    width: 300px;
+}
+
+/*! Main panel 1*/
+
+.panel1{
+    margin-top: 50px;
+}
+
+.main-boxContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+main .box{
+    border: .1px solid #dddddd;
+    display: inline-block;
+    padding: 0px 0px 20px 0px;
+    min-height: 240px;
+    width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: .1px solid #dddddd;
+    min-height: 130px;
+    width:100%;
+}
+
+.box-text{
+    padding: 15px 0px 0px 15px;
+}
+
+.box-text1{
+    font-size: 1.3rem;
+}
+
+.box-text2{
+    font-size: 14px;
+    align-items: center;
+    color: #b0a8a8;
+}
+
+/*! Main panel 2*/
+
+.panel2{
+    min-height:500px;
+    margin: 50px 200px;
+}
+
+.panel2-box{
+    justify-content: space-between;
+}
+
+.panel2-text .heading{
+    font-size: 2.5rem;
+}
+
+.panel2-text .info-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel2-text .info-text-lhs{
+    font-size: 1.2rem;
+}
+
+.panel2-text .info-text-rhs{
+    font-size: 1rem;
+    color:rgb(212, 26, 57);
+    cursor: pointer;
+}
+
+.panel2-boxContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.p-box {
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    min-height: 350px;
+    width: 300px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.p-box .text {
+    padding: 15px;
+    margin-top: 100%;
+}
+
+.p-box .text-top {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p-box .text-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.p-box .lhs {
+    font-size: 1.1rem;
+}
+
+.p-box .rhs {
+    display: flex;
+    align-items: center;
+}
+
+.p-box .rhs i {
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+
+/*! Main Panel 3*/
+.panel3{
+    margin:50px 200px;
+}
+
+.panel3-heading p{
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+
+.panel3-heading p span{
+    font-weight: 500
+}
+
+.i-box-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-box{
+    height: 80px;
+    width: 360px;
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor:pointer;
+    min-width: none;
+    min-height: 80px;
+    flex-wrap: wrap;
+}
+
+.info-boxes .i-boxContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-box-lhs{
+    padding: 12px 15px;
+}
+
+.i-box-lhs-top{
+    font-size: 20px;
+    font-weight:300;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin:0px 0px 5px;
+}
+
+.i-box-lhs-bottom{
+    font-size: 1rem;
+}
+
+.i-box-rhs{
+    padding: 0px 20px 0px 0px;
+}
+
+.i-box-rhs i{
+    font-size: 25px;
+}
+
+/*! Footer Panel 1*/
+
+.foot-panel1{
+    min-height: 440px;
+    background-color: #fffbf7;
+}
+
+.foot-header{
+    display: flex;
+    justify-content: center;
+}
+
+.foot-header p{
+    font-size: 44px;
+    margin: 0px 0px 15px;
+    margin-top: 70px;
+}
+
+.foot-header-text{
+    display: flex;
+    justify-content: center;
+}
+
+.foot-header-text p{
+    font-size: 1rem;
+    margin:0px 0px 25px;
+}
+
+.foot-input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.foot-input-lhs{
+    display: flex;
+}
+
+.foot-input-rhs{
+    display: flex;
+    margin-left: 20px;
+}
+
+.foot-input-lhs p{
+    font-size: 1.2rem;
+    margin: 0px 0px 1px 8px;
+    padding: 2px 0px 0px ;
+}
+
+.foot-input-rhs p{
+    font-size: 1.2rem;
+    margin: 0px 0px 1px 8px;
+    padding: 2px 0px 0px ;
+}
+
+.foot-input-button{
+    display: flex;
+    justify-content: center;
+}
+
+.foot-input-button-lhs input{
+    font-size: 1rem;
+    margin-top:10px;
+    margin-right: 7px;
+    min-height: 50px;
+    min-width:400px;
+    border-radius: 6px;
+    padding-left: 10px;
+    border:1px solid #dad6d6;
+}
+
+.foot-input-button-rhs{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.foot-input-button-rhs button{
+    font-size: 1rem;
+    padding:13px 7px 13px 7px;
+    border-radius: 6px;
+    border:none;
+    background-color: #ef4f5f;
+    color:#fff;
+}
+
+/*! Footer Panel 2*/
+
+.foot-panel2 {
+    height: 490px;
+}
+
+.foot-panel2-header {
+    margin-bottom: 20px;
+}
+
+.foot-panel2-header p{
+    font-size: 30px;
+}
+
+.foot-panel2-content {
+    min-height: 490px;
+    margin: 0px 200px;
+    padding: 20px 0;
+}
+
+.ddbox {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    padding: 20px 24px;
+    border:1px solid #d6d6d6;
+    border-radius: 7px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/*! Footer Panel 3*/
+
+.foot-panel3{
+    min-height: 480px;
+    background-color: #f8f8f8;
+}
+
+.foot-panel3-main{
+    min-height: 100%;
+    margin: 0px 200px;
+}
+
+.foot-panel3-main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0px 22px;
+    margin:0px 0px 40px
+}
+
+.foot-panel3-main-top-lhs-image{
+    background-image: url("/assets/zomato-logo.png");
+    min-height:30px;
+    width:145px;
+    background-size: cover;
+}
+
+.mtrBtn{
+    font-size: 1.1rem;
+    padding:7px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.mtr-left-button{
+    margin-right:5px;
+}
+
+.mtr-right-button{
+    margin-left: 5px;
+}
+
+.foot-panel3-main-bottom ul a{
+    text-decoration: none;
+    color:#696969;
+    display: block;
+    margin-bottom:5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.foot-panel3-main-bottom ul p{
+    margin-bottom:12px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.foot-panel3-main-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.foot-panel-copyright{
+    border-top: 1px solid #aaaa;
+}
+
+.foot-panel-copyright p{
+    font-size: 15px;
+    word-spacing: .5px;
+    letter-spacing: .5px;
+    color:#696969;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar,
+    .main-boxContainer,
+    .panel2,
+    .panel3,
+    .foot-panel2-content,
+    .foot-panel3-main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .navbar {
+        flex-direction: column;
+        min-height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-rhs {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nav-rhs li {
+        margin: 5px;
+    }
+
+    /* Hero Section */
+    .hero-main {
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 200px;
+        min-height: 40px;
+    }
+
+    .text-section h1 {
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+
+    .input-section {
+        width: 90%;
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .input-section-divider {
+        width: 100%;
+        min-height: 1px;
+        margin: 10px 0;
+    }
+
+    .select-section,
+    .search-section {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .select-section .loc-select {
+        margin: 0;
+        width: 100%;
+    }
+
+    .search-section .input-box {
+        width: 100%;
+    }
+
+    /* Panel 1 */
+    .main-boxContainer {
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 15px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    /* Panel 2 */
+    .panel2-text .heading {
+        font-size: 2rem;
+    }
+
+    .panel2-text .info-text {
+        flex-direction: column;
+    }
+
+    .panel2-text .info-text-lhs,
+    .panel2-text .info-text-rhs {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .panel2-boxContainer {
+        justify-content: center;
+    }
+
+    .p-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Panel 3 */
+    .panel3-heading p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .i-box-line {
+        flex-direction: column;
+    }
+
+    .i-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Footer Panel 1 */
+    .foot-header p {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .foot-input {
+        flex-direction: column;
+    }
+
+    .foot-input-lhs,
+    .foot-input-rhs {
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+    .foot-input-button-lhs input {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .foot-input-button {
+        flex-direction: column;
+    }
+
+    .foot-input-button-rhs {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .foot-input-button-rhs button {
+        width: 100%;
+    }
+
+    /* Footer Panel 2 */
+    .foot-panel2-header p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    /* Footer Panel 3 */
+    .foot-panel3-main-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-panel3-main-bottom ul {
+        margin-bottom: 20px;
+    }
+
+    .foot-panel3-main-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-panel3-main-top-rhs {
+        margin-top: 15px;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .text-section h1 {
+        font-size: 1.2rem;
+    }
+
+    .panel3-heading p {
+        font-size: 1.5rem;
+    }
+
+    .foot-header p {
+        font-size: 1.8rem;
+    }
+}
+
+/* Ensure proper box-sizing and prevent overflow */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
